@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+*.DS_Store
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcsettings
+*.xcconfig
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+*.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Secrets
+*.p12
+*.mobileprovision
+*.env
+*.keychain
+
+# IDE
+.vscode/
+.idea/
+*.log
+
+# GitHub Actions Cache
+.github/workflows/*.yml.cache
