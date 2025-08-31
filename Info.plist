@@ -1,0 +1,11 @@
+<key>CFBundleDisplayName</key><string>Aprexity</string>
+<key>CFBundleIdentifier</key><string>com.deinname.aprexity</string>
+<key>CFBundleName</key><string>Aprexity</string>
+<key>UIUserInterfaceStyle</key><string>Automatic</string>
+<key>NSLocalNetworkUsageDescription</key><string>Aprexity nutzt das lokale Netz für P2P-Spiele</string>
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key><false/>
+    <key>NSExceptionDomains</key>
+    <dict><key>aprexity-api.fly.dev</key><dict><key>NSExceptionAllowsInsecureHTTPLoads</key><true/></dict></dict>
+</dict>
